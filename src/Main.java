@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner qw = new Scanner (System.in);
+        System.out.println("ddf");
+        System.out.println("ddf");
         int day = qw.nextInt();
         String dayName = switch (day) {
             case 1 -> "понедельник";
